@@ -1,0 +1,98 @@
+.footer {
+  width: 100%;
+  margin: 48px 0 32px 0;
+}
+.footer__footer-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logo {
+  max-width: 209px;
+}
+.logo__title {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: calc(36 / 24 * 100%);
+  margin-bottom: 10px;
+}
+.logo__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(26 / 14 * 100%);
+  margin-bottom: 20px;
+}
+.logo__link:not(:last-child) {
+  margin-right: 10px;
+}
+.footer h5{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: calc(27 / 18 * 100%);
+}
+.footer a {
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: calc(24 / 16 * 100%);
+}
+.company {
+  margin-right: 20px;
+}
+.company__title {
+  margin-bottom: 20px;
+}
+.company__list {
+  display: flex;
+  flex-direction: column;
+}
+.company__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.support__title {
+  margin-bottom: 20px;
+}
+.support__list {
+  display: flex;
+  flex-direction: column;
+}
+.support__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.touch {
+}
+.touch__title {
+  margin-bottom: 18px;
+}
+.touch__input {
+  width: 255px;
+  background-color: #d9dbe133;
+  display: flex;
+  border-radius: 8px;
+}
+.touch__input button {
+  flex: 20% 1 1;
+  background-color: transparent;
+}
+.touch__input input {
+  flex: 80% 1 1;
+  height: 40px;
+  background-color: transparent;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 15px;
+  line-height: calc(21 / 14 * 100%);
+  color: #ffffff;
+  padding: 0 12px;
+}
+@media (max-width: 429px) {
+  .support {
+    margin: 20px 20px;
+  }
+}
+@media (max-width: 558px) {
+  .company {
+    display: none;
+  }
+}
+
